@@ -1,4 +1,4 @@
-package com.funin.imagefinder.data
+package com.funin.imagefinder.domain
 
 import org.junit.Test
 
