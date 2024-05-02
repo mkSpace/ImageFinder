@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.funin.imagefinder.data"
+    namespace = "com.funin.imagefinder.domain"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.funin.imagefinder.data"
+        applicationId = "com.funin.imagefinder.domain"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -43,4 +43,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Paging3
+    implementation(libs.androidx.paging.runtime)
+
+    // Inject
+    implementation(libs.javax.inject)
 }
