@@ -1,4 +1,4 @@
-package com.funin.imagefinder.domain.entity
+package com.funin.imagefinder.data.datasource.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Embedded

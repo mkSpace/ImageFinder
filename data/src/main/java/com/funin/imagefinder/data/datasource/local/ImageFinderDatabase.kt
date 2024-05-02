@@ -1,4 +1,4 @@
-package com.funin.imagefinder.data
+package com.funin.imagefinder.data.datasource.local
 
 import android.content.Context
 import android.util.Base64
@@ -8,9 +8,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
-import com.funin.imagefinder.data.dao.DocumentDao
+import com.funin.imagefinder.data.datasource.local.dao.DocumentDao
+import com.funin.imagefinder.data.datasource.local.entity.Document
 import com.funin.imagefinder.data.security.CipherHelper
-import com.funin.imagefinder.domain.entity.Document
 import net.sqlcipher.database.SQLiteDatabase
 import net.sqlcipher.database.SupportFactory
 
